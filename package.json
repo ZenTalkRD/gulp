@@ -30,8 +30,8 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "glob-watcher": "^5.0.3",
-    "gulp-cli": "^2.2.0",
+    "glob-watcher": "git+https://github.com/ZenTalkRD/glob-watcher.git",
+    "gulp-cli": "git+https://github.com/ZenTalkRD/gulp-cli.git",
     "undertaker": "^1.2.1",
     "vinyl-fs": "^3.0.0"
   },
